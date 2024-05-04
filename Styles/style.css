@@ -1,0 +1,269 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+html,body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+  }
+p {
+	margin: 10px, 0;
+}
+h1,
+h2,
+h3 {
+	padding-bottom: 20px;
+}
+/* utility classes */
+.container {
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+}
+.text-primary {
+	color: cadetblue;
+}
+.lead {
+	font-size: 20px;
+}
+.btn {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #333;
+	padding: 13px 20px;
+	border: none;
+	cursor: pointer;
+}
+.btn:hover {
+	color: #333;
+	background: cadetblue;
+}
+
+.btn-light {
+	background: #fff;
+	color: #333;
+}
+
+.btn-dark {
+	background: #333;
+	color: #fff;
+}
+.bg-dark {
+	background: #333;
+	color: #fff;
+}
+.bg-light {
+	color: #333;
+	background: #fff;
+}
+.bg-primary {
+	color: #333;
+	background: cadetblue;
+}
+/*  */
+.clr {
+	clear: both;
+}
+/* padding */
+.py-1 {
+	padding: 10px 0;
+}
+.py-2 {
+	padding: 20px 0;
+}
+.py-3 {
+	padding: 30px 0;
+}
+/* Navbar */
+.navbar {
+	background-color: black;
+	color: white;
+	overflow: auto;
+}
+.navbar h1 {
+	float: left;
+	padding: 20px 20px;
+}
+
+a {
+	display: block;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	line-height: 30px;
+	color: white;
+}
+
+.navbar ul li {
+	float: left;
+}
+.navbar ul {
+	list-style: none;
+	float: right;
+}
+.navbar ul li a:hover,
+.navbar ul li a.active {
+	background: #444;
+	color: cadetblue;
+}
+
+/* showcase */
+.showcase {
+	background: url('../Img/photo_2024-05-04_06-10-20.jpg') no-repeat center
+		center/cover;
+	height: 100vh;
+	position: relative;
+}
+.showcase::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	
+ }
+
+
+
+.showcase .showcase-content {
+	position: relative;
+	color: #fff;
+	text-align: center;
+	padding-top: 170px;
+	z-index: 10;
+}
+.showcase .showcase-content h1 {
+	font-size: 60px;
+	line-height: 1.2em;
+}
+
+.showcase .showcase-content p {
+	padding-bottom: 20px;
+	line-height: 1.7em;
+}
+/* Home */
+.home-info {
+	height: 400px;
+}
+.home-info .info-img {
+	float: left;
+	width: 50%;
+	background: url('../Img/bed-rom.jpg') no-repeat;
+	min-height: 100%;
+}
+
+.home-info .info-content {
+	float: right;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	padding: 50px 30px;
+	overflow: hidden;
+}
+.home-info .info-content p {
+	padding-bottom: 30px;
+}
+
+/* features */
+.box {
+	float: left;
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	border: 2px black solid;
+	border-radius: 100%;
+	margin: 10px auto;
+}
+
+/* About page */
+#about-info .info-right {
+	float: right;
+	width: 50%;
+	min-height: 100%;
+  }
+  
+  #about-info .info-right img {
+	display: block;
+	margin: auto;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+  }
+  
+  #about-info .info-left {
+	float: left;
+	width: 50%;
+	min-height: 100%;
+  }
+.l-heading {
+	font-size: 40px;
+	line-height: 1.2;
+}
+/* testimonial */
+#testimonials {
+	height: 600px;
+	background: url('../Img/photo_2024-04-07_15-00-05.jpg') no-repeat center center/cover;
+	padding-top: 100px;
+  }
+  
+  #testimonials h2 {
+	color: #fff;
+	text-align: center;
+	padding-bottom: 40px;
+  }
+  
+  #testimonials .testimonial {
+	padding: 20px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	opacity: 0.9;
+  }
+  
+  #testimonials .testimonial img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+  }
+
+/* Contact */
+#contact-form .form-group {
+	margin-bottom: 20px;
+}
+#contact-form label {
+	display: block;
+	margin: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px #ddd solid;
+
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+	outline: none;
+	border-color: cadetblue;
+
+} 
+
+
+/* footer */
+#main-footer {
+	text-align: center;
+	background: #444;
+	color: #fff;
+	padding: 20px;
+}
